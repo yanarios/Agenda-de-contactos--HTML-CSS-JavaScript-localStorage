@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background-color: rgb(247, 238, 226);
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px outset #cc1616;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#agenda {
+    margin-top: 20px;
+}
+
+.agenda-item {
+    margin-bottom: 10px;
+}
+
+.table-container {
+    margin-top: 10px;
+}
